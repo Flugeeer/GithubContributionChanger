@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Contribution Changer",
+  "description": "Меняет цвет календаря contributions на GitHub.",
+  "version": "1.0.1",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://github.com/*"],
+  "action": {
+    "default_title": "Contribution Changer",
+    "default_popup": "pop-up.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
