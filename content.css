@@ -1,0 +1,66 @@
+:root[data-gcc-theme] .ContributionCalendar-day[data-level="0"],
+:root[data-gcc-theme] [data-date][data-level="0"] {
+  background-color: var(--gcc-level-0) !important;
+  fill: var(--gcc-level-0) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-day[data-level="1"],
+:root[data-gcc-theme] [data-date][data-level="1"] {
+  background-color: var(--gcc-level-1) !important;
+  fill: var(--gcc-level-1) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-day[data-level="2"],
+:root[data-gcc-theme] [data-date][data-level="2"] {
+  background-color: var(--gcc-level-2) !important;
+  fill: var(--gcc-level-2) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-day[data-level="3"],
+:root[data-gcc-theme] [data-date][data-level="3"] {
+  background-color: var(--gcc-level-3) !important;
+  fill: var(--gcc-level-3) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-day[data-level="4"],
+:root[data-gcc-theme] [data-date][data-level="4"] {
+  background-color: var(--gcc-level-4) !important;
+  fill: var(--gcc-level-4) !important;
+}
+
+:root[data-gcc-theme="halloween"] {
+  --gcc-level-0: #151b22;
+  --gcc-level-1: #f9c58f;
+  --gcc-level-2: #c36211;
+  --gcc-level-3: #984a10;
+  --gcc-level-4: #e3cf4f;
+}
+
+:root[data-gcc-theme="christmas"] {
+  --gcc-level-0: #e9f3ee;
+  --gcc-level-1: #99d6b2;
+  --gcc-level-2: #36a269;
+  --gcc-level-3: #b92735;
+  --gcc-level-4: #7d1020;
+}
+
+/* Цвета маленькой легенды Less / More под календарём. */
+:root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(1) {
+  background-color: var(--gcc-level-0) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(2) {
+  background-color: var(--gcc-level-1) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(3) {
+  background-color: var(--gcc-level-2) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(4) {
+  background-color: var(--gcc-level-3) !important;
+}
+
+:root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(5) {
+  background-color: var(--gcc-level-4) !important;
+}
