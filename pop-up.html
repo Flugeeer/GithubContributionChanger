@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Contribution Changer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div>
+          <h1>GitHub Contribution Changer</h1>
+        </div>
+      </header>
+
+      <section class="themes" aria-label="Calendar theme">
+        <button class="theme-card" data-theme="default" type="button">
+          <span class="theme-card__text">
+            <span>
+              <strong>Regular</strong>
+              <small>GitHub default theme</small>
+            </span>
+          </span>
+          <span class="palette" aria-hidden="true">
+            <i style="--color: #ebedf0"></i>
+            <i style="--color: #9be9a8"></i>
+            <i style="--color: #40c463"></i>
+            <i style="--color: #30a14e"></i>
+            <i style="--color: #216e39"></i>
+          </span>
+          <span class="check" aria-hidden="true">✓</span>
+        </button>
+
+        <button class="theme-card" data-theme="halloween" type="button">
+          <span class="theme-card__text">
+            <span>
+              <strong>Halloween</strong>
+              <small>Halloween theme</small>
+            </span>
+          </span>
+          <span class="palette" aria-hidden="true">
+            <i style="--color: #151b22"></i>
+            <i style="--color: #f9c58f"></i>
+            <i style="--color: #c36211"></i>
+            <i style="--color: #984a10"></i>
+            <i style="--color: #e3cf4f"></i>
+          </span>
+          <span class="check" aria-hidden="true">✓</span>
+        </button>
+
+        <button class="theme-card" data-theme="christmas" type="button">
+          <span class="theme-card__text">
+            <span>
+              <strong>Christmas</strong>
+              <small>X-mas theme</small>
+            </span>
+          </span>
+          <span class="palette" aria-hidden="true">
+            <i style="--color: #e9f3ee"></i>
+            <i style="--color: #99d6b2"></i>
+            <i style="--color: #36a269"></i>
+            <i style="--color: #b92735"></i>
+            <i style="--color: #7d1020"></i>
+          </span>
+          <span class="check" aria-hidden="true">✓</span>
+        </button>
+      </section>
+
+      <p class="status" id="status" role="status" aria-live="polite">
+        Тема применяется ко всем профилям GitHub
+      </p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
