@@ -29,12 +29,12 @@ async function saveTheme(theme) {
   if (tab?.id && tab.url?.startsWith("https://github.com/")) {
     try {
       await chrome.tabs.sendMessage(tab.id, { type: "SET_THEME", theme });
-      status.textContent = "Тема применена";
+      status.textContent = "Theme selected";
     } catch {
-      status.textContent = "Обновите вкладку GitHub для применения";
+      status.textContent = "Refresh the page";
     }
   } else {
-    status.textContent = "Откройте профиль GitHub, чтобы увидеть тему";
+    status.textContent = "Open github profile";
   }
 }
 
