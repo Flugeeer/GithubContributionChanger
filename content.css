@@ -37,14 +37,13 @@
 }
 
 :root[data-gcc-theme="christmas"] {
-  --gcc-level-0: #e9f3ee;
+  --gcc-level-0: #151b23;
   --gcc-level-1: #99d6b2;
   --gcc-level-2: #36a269;
   --gcc-level-3: #b92735;
   --gcc-level-4: #7d1020;
 }
 
-/* Цвета маленькой легенды Less / More под календарём. */
 :root[data-gcc-theme] .ContributionCalendar-legend li:nth-child(1) {
   background-color: var(--gcc-level-0) !important;
 }
